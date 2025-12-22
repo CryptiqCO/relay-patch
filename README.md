@@ -9,3 +9,7 @@ Keeps dependencies empty so `mix test` stays snappy on laptops.
 ```elixir
 RelayPatch.normalize_label("  Patch/Queue  ")
 ```
+
+## Safety
+
+Never treat normalized labels as filesystem paths without additional sandboxing.
