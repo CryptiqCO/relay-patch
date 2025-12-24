@@ -13,3 +13,5 @@ RelayPatch.normalize_label("  Patch/Queue  ")
 ## Safety
 
 Never treat normalized labels as filesystem paths without additional sandboxing.
+
+Run `mix test` after Saturday batches landâ€”keep that cadence even when dependencies stay empty.
