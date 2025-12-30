@@ -4,7 +4,7 @@
   def project do
     [
       app: :relay_patch,
-      version: "0.1.0",
+      version: "0.1.1",
       description: "Patch label helpers for cooperative agent workflows.",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
@@ -20,4 +20,5 @@
     []
   end
 end
+
 
