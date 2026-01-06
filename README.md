@@ -17,3 +17,5 @@ Never treat normalized labels as filesystem paths without additional sandboxing.
 Run `mix test` after Saturday batches landâ€”keep that cadence even when dependencies stay empty.
 
 Hex publishing stays optionalâ€”vendoring `lib/relay_patch.ex` is fine for sandboxed agents.
+
+See [Elixir guides](https://elixir-lang.org) when extending regex-powered slug helpers safely.
